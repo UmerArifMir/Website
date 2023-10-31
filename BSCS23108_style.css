@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header li {
+    margin: 0 20px;
+}
+
+header a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px; 
+    text-transform: uppercase;
+    transition: color 0.3s; 
+}
+
+header a:hover {
+    color: #ff8c00;
+}
+
+.about {
+    text-align: center;
+    padding: 40px 0; 
+}
+
+.about-image {
+    position: relative;
+    text-align: center;
+}
+
+.image-text {
+    position: absolute;
+    top: 10px; /* Positions text at the top */
+    left: 50%; /* Positions text in the horizontal center */
+    transform: translateX(-50%); /* Centers the text horizontally */
+    font-size: 48px; /* Adjusts the font size */
+    color: #020202; /* Texts color */
+    background: rgba(0, 0, 0, 0); /* Transparent background */
+    padding: 10px 20px; /* Adds some padding around the text */
+    border-radius: 5px; /* Adds rounded corners */
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+    max-width: 800px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.product {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.product h2 {
+    color: #333;
+    font-size: 24px; 
+    margin: 10px 0; 
+}
+
+.product p {
+    color: #777;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.product img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff8c00; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
+}
+
+.btn:hover {
+    background-color: #ff6100; 
+}
+
+.product-content {
+    text-align: center;
+}
+
+.product-content a.btn {
+    display: inline-block;
+    margin-top: 20px; 
+}
+
+.contact {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contact h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    margin: 10px 0;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.contact li a:hover {
+    color: #007bff; 
+}
+
+.social {
+    margin: 20px;
+}
+
+.social h2 {
+    color: #333;
+    font-size: 20px;
+}
+
+.social a {
+    text-decoration: none;
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.social a:hover {
+    transform: scale(1.1); /* Grows a bit on hover */
+}
